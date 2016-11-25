@@ -1,0 +1,18 @@
+{
+    "synthDef": {
+        "id": "curly", 
+        "ugen": "flock.ugen.filter.biquad.bp",
+        "freq": {
+            "ugen": "flock.ugen.sin",
+            "freq": 0.1,
+            "rate": "control",
+            "mul": 400, 
+            "add": 500 
+        },
+        "q": 2.0,
+        "source": {
+            "ugen": "flock.ugen.impulse",
+            "freq": 10.1 
+        }
+    }
+}
