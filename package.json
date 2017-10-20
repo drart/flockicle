@@ -3,6 +3,6 @@
   "author":"Adam Tindale",
   "version": "0.1.1",
   "dependencies": {
-    "flocking": "colinbdclark/flocking#midi-improvements"
+    "flocking": "colinbdclark/flocking"
   }
 }
